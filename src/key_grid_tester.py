@@ -37,11 +37,11 @@ def key_grid_tester_walls(length_units, width_units):
     wall_length = (mount_length + switch_spacing) * length_units + switch_spacing
     wall_width = (mount_width + switch_spacing) * width_units + switch_spacing
 
-    top_wall = forward((wall_width - wall_thickness) / 2)(
+    top_wall = forward((wall_width - wall_thickness) / 2 - 98)(
         cube((wall_width, wall_thickness, wall_height), center=True)
     )
 
-    left_wall = left((wall_length - wall_thickness) / 2)(
+    left_wall = left((wall_length - wall_thickness) / 2 - 95.5)(
         cube((wall_thickness, wall_length, wall_height), center=True)
     )
 
