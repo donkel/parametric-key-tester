@@ -1,4 +1,8 @@
-# Parameterized Key Tester Frame
+# Parameterized Key Tester Frame 2x7 fix
+
+![Misaligned](./images/misaligned.png)
+![Aaligned](./images/aligned.png)
+
 
 ## Why this fork exists
 
