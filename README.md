@@ -1,27 +1,18 @@
 # Parameterized Key Tester Frame
 
-![Action Shot](images/action-shot.jpg)
+## Why this fork exists
 
-This Python app allows you to generate `.scad` and `.stl` files for key tester frames, supporting
-arbitrary `m x n` sizes.
-
-In the `files/` directory, example output files for 1x1, 2x2, 3x3, and 4x4 sizes are included.
-
+I wanted to generate a 2x7 key tester, but I couldn't get the original program to do that properly.
+The walls got kind of misaligned. All this fork does is mess with some numbers to make the walls
+aligned with the edges of the key tester plate.
 
 ## Usage
 
-You can generate other sizes using the `src/generate.py` script; example:
+Don't use this fork lmao...
+Unless you need a 2x7 tester, in which case you can check out the files folder.
 
-```bash
-src/generate.py 3 5 --output ~/key-tester-3x5.scad
-```
-
-Once you have generated a `.scad` file, you can use OpenSCAD to generate a `.stl` file from it:
-
-```bash
-openscad -o ~/key-tester-3x5.stl ~/key-tester-3x5.scad
-```
-
+Go to whitelynx' original program for any layout other than 2x7.
+https://github.com/whitelynx/parametric-key-tester
 
 ## Links
 
